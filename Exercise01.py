@@ -68,8 +68,8 @@ while True:
                 cv2.putText(img, "Pinky", (20, 190), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (112,25,25), 2)
 
-            cv2.putText(img, "earn", (500, 420), cv2.FONT_HERSHEY_PLAIN, 1.5,
-                (112,25,25), 2)
+    cv2.putText(img, "earn", (500, 420), cv2.FONT_HERSHEY_PLAIN, 1.5,
+    (112,25,25), 2)
 
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
